@@ -1,6 +1,10 @@
 from flask import Flask
 from flask_restful import reqparse, abort, Api, Resource
 
+# Install the needed module first
+# pip3 install flask
+# pip3 install flask_restful
+
 app = Flask(__name__)
 api = Api(app)
 
