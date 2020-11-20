@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_restful import reqparse, abort, Api, Resource
 
+# From https://flask-restful.readthedocs.io/en/latest/quickstart.html#a-minimal-api
 # Install the needed module first
 # pip3 install flask
 # pip3 install flask_restful
